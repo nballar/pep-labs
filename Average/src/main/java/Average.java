@@ -22,7 +22,7 @@ public class Average {
         for(int i = 0; i < nums.length; i++){
             sum += nums[i];
         }
-        double avg = sum/nums.length;
+        double avg = sum/(nums.length);
         return avg;
     }
 }

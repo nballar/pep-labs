@@ -48,7 +48,7 @@ public class StackExercise {
      * @return the value popped from the top of the deque.
      */
     public String removeFromTopOfStack(Deque<String> stack){
-        return stack.pop();
+        return stack.pollLast();
     }
     /**
      * Return the value at the top of a deque without removing the value.

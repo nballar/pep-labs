@@ -19,6 +19,8 @@ public class ArraysAreEqual {
             for(int j = 0; j < b.length; j++){
                 if(a[i] != b[j]){
                     return false;
+                } else {
+                    return true;
                 }
             }
         }

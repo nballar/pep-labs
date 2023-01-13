@@ -581,9 +581,9 @@
     :count_tests: 3
     :count_tests_passed: 2
     :tests:
-      equalTest1: 0
+      equalTest1: 1
       equalTest2: 1
-      equalTest3: 1
+      equalTest3: 0
   MaxMinusMin:
     :Week: 4
     :Order: 16

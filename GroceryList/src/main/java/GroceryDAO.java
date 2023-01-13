@@ -50,6 +50,7 @@ public class GroceryDAO {
             //Write SQL logic here
             String sql = "INSERT INTO grocery (grocery_name) VALUES (?);";
             PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setString(1, groceryName);
             ps.executeUpdate();
         }catch(SQLException e){
             e.printStackTrace();
